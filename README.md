@@ -1,5 +1,5 @@
 # RayTracer
-Raytracer made from scratch.
+Raytracer made from scratch\
 Implemented effects:
 1) simple fog along the Z axis
 2) casting shadows on other objects
