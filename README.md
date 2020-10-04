@@ -22,3 +22,13 @@ BMP
 C++ only
 
 ## Graphical results
+![](https://github.com/DashaVasilenko/RayTracer/blob/master/img/image0.png)
+![](https://github.com/DashaVasilenko/RayTracer/blob/master/img/image1.png)
+![](https://github.com/DashaVasilenko/RayTracer/blob/master/img/image2.png)
+![](https://github.com/DashaVasilenko/RayTracer/blob/master/img/image3.png)
+
+
+## Small video
+[![Watch the video]()](https://github.com/DashaVasilenko/RayTracer/blob/master/img/out.mp4)
+
+
