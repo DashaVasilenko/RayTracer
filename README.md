@@ -1,5 +1,5 @@
 # RayTracer
-Raytracer made from scratch\
+Raytracer made from scratch in C++\
 \
 Implemented effects:
 1) simple fog along the Z axis
@@ -17,10 +17,7 @@ Implemented effects:
 Daria Vasilenko
 
 ## Exports
-BMP
-
-## Used tools
-C++ 
+BMP 
 
 ## Graphical results
 ![hippo](https://github.com/DashaVasilenko/RayTracer/blob/master/img/out.gif)
