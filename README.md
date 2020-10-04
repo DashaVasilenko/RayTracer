@@ -1,5 +1,5 @@
 # RayTracer
-This application was written for educational purposes to write ray tracer. 
+Raytracer made from scratch.
 Implemented effects:
 1) simple fog along the Z axis
 2) casting shadows on other objects
@@ -19,7 +19,7 @@ Daria Vasilenko
 BMP
 
 ## Used tools
-C++ only
+C++ 
 
 ## Graphical results
 ![](https://github.com/DashaVasilenko/RayTracer/blob/master/img/image0.png)
