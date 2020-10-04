@@ -1,0 +1,12 @@
+cg
+main.o
+color.o
+tracer.o
+vector.o
+light.o
+camera.o
+shape.o
+makefile
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles
