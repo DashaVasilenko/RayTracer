@@ -19,17 +19,17 @@ public:
   void orient(const Vec3& org, const Vec3& dir, const Vec3& up) { translate(org); rotate(dir, up); }
 
   void render(const Scene& scene, Image& img) const;
-  void renderAA(const Scene& scene, int cnt, Image& img) const; // cnt - количество лучей на пиксель
-  void renderAAA(const Scene& scene, int min, int max, Image& img) const; // max - максимальное количество лучей на пиксель
+  void renderAA(const Scene& scene, int cnt, Image& img) const; // cnt - number of rays per pixel
+  void renderAAA(const Scene& scene, int min, int max, Image& img) const; // max - max number of rays per pixel
 
 protected:
-  Vec3 origin;   // положение в пространстве
-  Vec3 direct;   // направление взгляда норм
-  Vec3 horz;     // направление вправо норм
-  Vec3 vert;     // направление вверх норм
-  double px, py; // масштабирующие коэффициенты
+  Vec3 origin;   // position in space
+  Vec3 direct;   // direction of view (normalized)
+  Vec3 horz;     // right direction (normalized)
+  Vec3 vert;     // up direction (normalized)
+  double px, py; // scaling factor
 
-  virtual Color trace(const Scene& scene, double x, double y) const; // нормализованные координаты (-1 <= x,y <= 1)
+  virtual Color trace(const Scene& scene, double x, double y) const; // normalized coordinates (-1 <= x,y <= 1)
 };
 
 class OrthoCamera : public Camera
@@ -43,7 +43,7 @@ public:
 class PerspectiveCamera : public Camera
 {
 public:
-  PerspectiveCamera(const Vec3& org, double fov, double aspect) : Camera(org) { init(fov, aspect); }//как соотносятся гориз и верт углы
+  PerspectiveCamera(const Vec3& org, double fov, double aspect) : Camera(org) { init(fov, aspect); } // how do horizontal and vertical angles relate
 
   void init(double fov, double aspect) { assert(fov > 0.0 && fov < 180.0 && aspect > 0.0); py = tan(0.5*DBL_PI/180.0*fov); px = py*aspect; }
 

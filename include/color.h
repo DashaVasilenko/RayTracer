@@ -16,10 +16,10 @@ typedef unsigned int       uint32_t;
 #pragma pack(push, 1)
 struct RGBA
 {
-  uint8_t r; // красный
-  uint8_t g; // зеленый
-  uint8_t b; // синий
-  uint8_t a; // прозрачность
+  uint8_t r; // red
+  uint8_t g; // green
+  uint8_t b; // blue
+  uint8_t a; // alpha
 };
 #pragma pack(pop)
 

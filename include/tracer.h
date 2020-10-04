@@ -108,15 +108,15 @@ public:
   void add(Shape* s) { shape.push_back(s); }
   void add(Light* l) { light.push_back(l); }
   
-  Shape* intersect(const Ray& r, double& t) const; // поиск точки пересечения с ближайщим объектом
+  Shape* intersect(const Ray& r, double& t) const; // finding the intersection point with the nearest object
 
   Color background(const Ray& r) const;
 
   Color trace(const Ray& r) const { return trace(r, depth, 1.0); }
 
 protected:
-  int    depth; // допустимая глубина рекурсии
-  Color  color; // цвет фона
+  int    depth; // allowed recursion depth
+  Color  color; // background color
   double refract; // показатель преломления среды
   double (*fog)(double);
   Color fogcolor; // цвет тумана

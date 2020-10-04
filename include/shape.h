@@ -129,7 +129,7 @@ protected:
 //------------------------------------------------------------------------------
 //
 //
-class SolidTexture : public Texture //одинаковая равномерная текстура(типо золото, серебро, не мрамор)
+class SolidTexture : public Texture
 {
 public:
   SolidTexture(const Material& m) : mt(m) { }
@@ -152,7 +152,7 @@ public:
 
 protected:
   const Texture* texture[2];
-  Vec3 size; //размер клетки 
+  Vec3 size; 
 };
 
 //-----------------------------------------------------------------------------
