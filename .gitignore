@@ -1,3 +1,9 @@
+makefile
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles
+.DS_Store
+ReadMe.txt
 cg
 main.o
 color.o
@@ -6,8 +12,3 @@ vector.o
 light.o
 camera.o
 shape.o
-makefile
-CMakeCache.txt
-cmake_install.cmake
-CMakeFiles
-.DS_Store
