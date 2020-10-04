@@ -9,7 +9,7 @@ Implemented effects:
 4) procedural textures that simulate irregular 3D structures
 5) antialiasing
 6) semi-transparent objects with ambient refraction
-7) pixel-by-pixel illumination calculation based on standard models
+7) phong shading model
 8) volumetric or extended lighting sources
 9) CSG
 10) soft shadows
