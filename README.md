@@ -1,5 +1,6 @@
 # RayTracer
 Raytracer made from scratch\
+\
 Implemented effects:
 1) simple fog along the Z axis
 2) casting shadows on other objects
@@ -22,13 +23,11 @@ BMP
 C++ 
 
 ## Graphical results
+![hippo](https://github.com/DashaVasilenko/RayTracer/blob/master/img/out.gif)
+
 ![](https://github.com/DashaVasilenko/RayTracer/blob/master/img/image0.png)
 ![](https://github.com/DashaVasilenko/RayTracer/blob/master/img/image1.bmp)
 ![](https://github.com/DashaVasilenko/RayTracer/blob/master/img/image2.bmp)
 ![](https://github.com/DashaVasilenko/RayTracer/blob/master/img/image3.bmp)
-
-
-## Small video
-![hippo](https://github.com/DashaVasilenko/RayTracer/blob/master/img/out.gif)
 
 
