@@ -29,6 +29,6 @@ C++
 
 
 ## Small video
-[![Watch the video]()](https://github.com/DashaVasilenko/RayTracer/blob/master/img/out.mp4)
+![hippo](https://github.com/DashaVasilenko/RayTracer/blob/master/img/out.gif)
 
 
