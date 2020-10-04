@@ -11,4 +11,4 @@ tracer.o
 vector.o
 light.o
 camera.o
-shape.o
+shape.o 
